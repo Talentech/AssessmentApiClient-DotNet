@@ -24,10 +24,8 @@ namespace Exas
         {
             ExasBaseUrl = config["Exas:BaseUri"];
             ExasSubscriptionKey = config["Exas:SubscriptionKey"];
-            ExasApiKey = config["Exas:ApiKey"];
 
             DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", ExasSubscriptionKey);
-            DefaultRequestHeaders.Add("ApiKey", ExasApiKey);
             auth = authClient;
         } 
 

@@ -18,7 +18,7 @@ namespace ExasTestClient
 
             var exasClient = ServiceProvider.GetService<IExasClient>();
 
-            var v = exasClient.GetAllAssessmentTypes();
+            var v = exasClient.GetCustomer("efba185a-ad2e-4863-abef-2838faf5cc16");
 
             Console.WriteLine(v.Result);
             Console.ReadLine();

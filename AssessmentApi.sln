@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExasTestClient", "ExasTestClient\ExasTestClient.csproj", "{0A5C0CF1-4B13-4518-9411-40EF76505BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentTestClient", "ExasTestClient\AssessmentTestClient.csproj", "{0A5C0CF1-4B13-4518-9411-40EF76505BF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exas", "Exas\Exas.csproj", "{AB272916-8A9F-48A3-B428-8E8F34F76F79}"
 EndProject
